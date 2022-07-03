@@ -1,19 +1,22 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 h1 {
     font-size: 50px;
+    line-height: 1.6;
 }
 
 p {
     font-size: large;
-    ;
+    color: #414042;
+    text-align: justify;
 }
 
 .name {
-    color: orangered;
+    color: #ff1b45;
 }
 
 section {
@@ -42,4 +45,9 @@ section {
 .img {
     height: 50px;
     width: 50px;
+}
+
+.top-back {
+    background-image: url(images/top-banner01.png);
+    background-repeat: no-repeat;
 }
