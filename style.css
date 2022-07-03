@@ -1,3 +1,40 @@
-body{font-family: 'Lato', sans-serif;
-    font-family: 'Poppins', sans-serif;}
-h1{color: orangered; font-size: 70px;}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: large;
+    ;
+}
+
+.name {
+    color: orangered;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 100%;
+    padding-right: 10%;
+}
+
+.albumes {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    background-image: repeating-linear-gradient(#ff1b45, #ac0011);
+    padding: 10px 10px;
+    border-radius: 5px;
+}
