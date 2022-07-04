@@ -21,11 +21,16 @@ p {
 
 section {
     display: flex;
+    margin-bottom: 180px;
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
+}
+
+.half-width-2 {
+    padding-right: 15%;
 }
 
 .half-width img {
@@ -50,4 +55,16 @@ section {
 .top-back {
     background-image: url(images/top-banner01.png);
     background-repeat: no-repeat;
+}
+
+.queen {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mam {
+    font-size: large;
+    color: #414042;
+    text-align: justify;
 }
